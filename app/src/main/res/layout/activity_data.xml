@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.lenovocomp.password_manager.DataActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin"
+        android:orientation="vertical"
+        android:weightSum="100"
+        tools:ignore="DuplicateIds,UselessLeaf,UselessParent">
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:text="@string/common_google_play_services_update_button" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:text="Remove" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="47dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/insta"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/titleview"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/image"
+            android:layout_toRightOf="@+id/image"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textPersonName"
+
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="********"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/showusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="205dp"
+
+
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/showpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="130dp"
+
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/savebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:text="save" />
+
+    </RelativeLayout>
+
+</LinearLayout>

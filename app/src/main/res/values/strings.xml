@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Password_Manager</string>
+    <string name="titlename"></string>
+    <string name="button">Login</string>
+    <string name="Passwordtext">********</string>
+    <string name="email">Emailtxt</string>
+    <string name="Email">email</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="Signupbt">Signup</string>
+    <string name="Signoutbtn">Signout</string>
+    <string name="pass">******</string>
+    <string name="enter_your_string_email">enter your @string/email</string>
+    <string name="email_hint">enter your email</string>
+    <string name="edit">TextView</string>
+    <string name="title">TextView</string>
+    <string name="enter_your_email" />
+    <string name="Signupbutton">Signup</string>
+</resources>

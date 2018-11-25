@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "475350854020",
+    "firebase_url": "https://passwordmanager-ef570.firebaseio.com",
+    "project_id": "passwordmanager-ef570",
+    "storage_bucket": "passwordmanager-ef570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475350854020:android:961c768d54b701ad",
+        "android_client_info": {
+          "package_name": "com.example.lenovocomp.password_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475350854020-7j2jih45qlk4nmmu0fjssgkaahal4nmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovocomp.password_manager",
+            "certificate_hash": "7f4c129f1637f4c8b177df0889b9cd5ed1d979a2"
+          }
+        },
+        {
+          "client_id": "475350854020-vu6vn2jcusva329apua01d3c82im0u7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovocomp.password_manager",
+            "certificate_hash": "7a56cd9bbe8db446990bc9047562c4b628e2c79e"
+          }
+        },
+        {
+          "client_id": "475350854020-69k0ic44cvnra872shmhpd3f8ri89s5m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "475350854020-69k0ic44cvnra872shmhpd3f8ri89s5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzMcVgwao3ABVUX5TKxNZDyVetQTW12Ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475350854020-69k0ic44cvnra872shmhpd3f8ri89s5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+#Sat Nov 24 17:19:42 PKT 2018
+base.0=C\:\\Users\\abdul\\Downloads\\Compressed\\Password manager\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex
